@@ -1,0 +1,41 @@
+name: Update Profile
+
+on: [push]
+
+jobs:
+  update-date:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Get the last commit message for profile README
+        id: last_commit
+        run: |
+          LAST_COMMIT=$(git log -1 --pretty=format:"%s" -- profile/README.md)
+          echo "::set-output name=last_commit::$LAST_COMMIT"
+
+      - name: Check if the profile README is up-to-date
+        id: check_commit
+        run: |
+          CI_COMMIT="CI: Update date information in README.md"
+          if [[ "${{ steps.last_commit.outputs.last_commit }}" == $CI_COMMIT ]]; then
+            echo "Profile README is up-to-date"
+            exit 1
+          fi
+
+      - name: Update date in README.md
+        run: |
+          # Set the date format
+          current_date=$(date -u +"%Y-%m-%d")
+
+          # Use sed to update the date in README.md
+          sed -i "s/(\*This README was last updated on \*\*)[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}(\*\*)/\*This README was last updated on **${current_date}**/" ./profile/README.md
+
+          # Commit changes if any
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add ./profile/README.md
+          git commit -m "CI: Update date information in README.md"
+          git push
