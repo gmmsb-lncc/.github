@@ -14,10 +14,10 @@ jobs:
         id: last_commit
         run: |
           LAST_COMMIT=$(git log -1 --pretty=format:"%s" -- profile/README.md)
+          echo "Last commit: '$LAST_COMMIT'"
           echo "::set-output name=last_commit::$LAST_COMMIT"
 
       - name: Check if the profile README is up-to-date
-        id: check_commit
         run: |
           CI_COMMIT="CI: Update date information in README.md"
           if [[ "${{ steps.last_commit.outputs.last_commit }}" == $CI_COMMIT ]]; then
