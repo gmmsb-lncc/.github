@@ -13,7 +13,7 @@ If you have any questions or need further assistance, please reach out to us at 
 <!--
 [![name](https://images.weserv.nl/?url=github.com/{github_nickname}.png&h=50&w=50&fit=cover&mask=circle&maxage=7d)]({link-for-cv})
 -->
-|||
+|Role|People|
 |-|-|
 |**Group Leader**|![Laurent Dardenne](https://images.weserv.nl/?url=github.com/ledardenne.png&h=50&w=50&fit=cover&mask=circle&maxage=7d)|
 |**Permanent Researchers**|![Fábio Lima Custódio](https://images.weserv.nl/?url=github.com/flcustodio.png&h=50&w=50&fit=cover&mask=circle&maxage=7d)|
