@@ -11,17 +11,16 @@ If you have any questions or need further assistance, please reach out to us at 
 ## [Our Team](https://www.gmmsb.lncc.br/#fh5co-about)
 
 <!--
-<a href="{{link for CV or other}}"><img src="https://github.com/{{github_nickname}}.png" alt="{{Name}}" style="border-radius: 50%; width: 50px; height: 50px;"/></a>
+[![name](https://images.weserv.nl/?url=github.com/{github_nickname}.png&h=50&w=50&fit=cover&mask=circle&maxage=7d)]({link-for-cv})
 -->
-
 |||
 |-|-|
-|**Group Leader**|<a href="{{link for CV or other}}"><img src="https://github.com/ledardenne.png" alt="Dardenne" style="border-radius: 50%; width: 50px; height: 50px;"/></a>|
-|**Permanent Researchers**|<a href="{{link for CV or other}}"><img src="https://github.com/{{github_nickname}}.png" alt="Eduardo Krempser" style="border-radius: 50%; width: 50px; height: 50px;"/></a> <a href="{{link for CV or other}}"><img src="https://github.com/flcustodio.png" alt="Fábio Lima Custódio" style="border-radius: 50%; width: 50px; height: 50px;"/></a> <a href="{{link for CV or other}}"><img src="https://github.com/{{github_nickname}}.png" alt="Helio Barbosa" style="border-radius: 50%; width: 50px; height: 50px;"/></a>|
-|**Post-Doctoral Researchers**|<a href="{{link for CV or other}}"><img src="https://github.com/isabellaguedes.png" alt="Isabella Alvim Guedes" style="border-radius: 50%; width: 50px; height: 50px;"/></a> <a href="{{link for CV or other}}"><img src="https://github.com/leticrisassis.png" alt="Letícia Cristina de Assis" style="border-radius: 50%; width: 50px; height: 50px;"/></a>|
-|**PhD Students**|<a href="{{link for CV or other}}"><img src="https://github.com/aluizakarl.png" alt="Ana Luiza Martins Karl" style="border-radius: 50%; width: 50px; height: 50px;"/></a> <a href="{{link for CV or other}}"><img src="https://github.com/sulfierry.png" alt="Leon Sulfierry Corrêa Costa" style="border-radius: 50%; width: 50px; height: 50px;"/></a> <a href="{{link for CV or other}}"><img src="https://github.com/mpds.png" alt="Matheus Müller Pereira da Silva" style="border-radius: 50%; width: 50px; height: 50px;"/></a>|
-|**Master's Students**|<a href="{{link for CV or other}}"><img src="https://github.com/joserdf.png" alt="José Renato" style="border-radius: 50%; width: 50px; height: 50px;"/></a> <a href="{{link for CV or other}}"><img src="https://github.com/{{github_nickname}}.png" alt="Lucas Menezes Silva" style="border-radius: 50%; width: 50px; height: 50px;"/></a>|
-|**Collaborators**|<a href="{{link for CV or other}}"><img src="https://github.com/aaronleao.png" alt="Aaron Leão" style="border-radius: 50%; width: 50px; height: 50px;"/></a> <a href="{{link for CV or other}}"><img src="https://github.com/jsangelo.png" alt="Jaqueline da Silva Angelo" style="border-radius: 50%; width: 50px; height: 50px;"/></a>|
+|**Group Leader**|![Laurent Dardenne](https://images.weserv.nl/?url=github.com/ledardenne.png&h=50&w=50&fit=cover&mask=circle&maxage=7d)|
+|**Permanent Researchers**|![Fábio Lima Custódio](https://images.weserv.nl/?url=github.com/flcustodio.png&h=50&w=50&fit=cover&mask=circle&maxage=7d)|
+|**Post-Doctoral Researchers**|![Isabella Alvim Guedes](https://images.weserv.nl/?url=github.com/isabellaguedes.png&h=50&w=50&fit=cover&mask=circle&maxage=7d) ![Letícia Cristina de Assis](https://images.weserv.nl/?url=github.com/leticrisassis.png&h=50&w=50&fit=cover&mask=circle&maxage=7d)|
+|**PhD Students**|![Ana Luiza Martins Karl](https://images.weserv.nl/?url=github.com/aluizakarl.png&h=50&w=50&fit=cover&mask=circle&maxage=7d) ![Leon Sulfierry Corrêa Costa](https://images.weserv.nl/?url=github.com/sulfierry.png&h=50&w=50&fit=cover&mask=circle&maxage=7d) ![Matheus Müller Pereira da Silva](https://images.weserv.nl/?url=github.com/mpds.png&h=50&w=50&fit=cover&mask=circle&maxage=7d)|
+|**Master's Students**|![José Renato D Fajardo](https://images.weserv.nl/?url=github.com/joserdf.png&h=50&w=50&fit=cover&mask=circle&maxage=7d)|
+|**Collaborators**|![Aaron Leão](https://images.weserv.nl/?url=github.com/aaronleao.png&h=50&w=50&fit=cover&mask=circle&maxage=7d) ![Jaqueline da Silva Angelo](https://images.weserv.nl/?url=github.com/jsangelo.png&h=50&w=50&fit=cover&mask=circle&maxage=7d)|
 
 <!--
 ## Contributing
