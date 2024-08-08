@@ -12,7 +12,10 @@ jobs:
 
       - name: Check if the profile README is up-to-date
         run: |
-          last_msg=$(git log -1 --pretty=format:"%s" -- ../profile/README.md)
+          ls
+          git log -1 --pretty=format:"%s"
+          git log -1 --pretty=format:"%s" -- ./profile/README.md
+          last_msg=$(git log -1 --pretty=format:"%s" -- ./profile/README.md)
           echo "Last commit message: '$last_msg'"
 
           CI_COMMIT="CI: Update date information in README.md"
